@@ -2,7 +2,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField,TextAreaField,SubmitField
 from wtforms.validators import DataRequired, Length
 
-
+#form to validate user input
 class PostForm(FlaskForm):
     title = StringField('Title', validators=[DataRequired(message='Title is required'),
                                              Length(min = 2, max = 100, message='Title must be between 2 and 100')])
