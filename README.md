@@ -1,5 +1,7 @@
 # 📝 Personal Blog (Flask)
 
+ **Blog Link**: [Line of Progress](https://line-of-progress-personal-blog.onrender.com/)
+
 A full-featured personal blog web application built with Flask.
 This project allows users to create, read, update, and delete blog posts through a clean web interface.
 Posts are stored in a SQLite database with features like user authentication, password hashing,
@@ -221,7 +223,7 @@ The visual design and layout of this blog were inspired by the clean, minimal ae
 
 - **Theme Reference**: [PaperMod for HTMLy](https://www.htmly.com/theme/papermod)
 - **Design Software**: [Draw.io](https://app.diagrams.net/)
-- 
+
 ## 📄 License
 
 This project is open source and available for educational purposes.
