@@ -5,6 +5,10 @@ This project allows users to create, read, update, and delete blog posts through
 Posts are stored in a SQLite database with features like user authentication, password hashing,
 post timestamps, and a modern responsive design following MVC architecture patterns.
 
+## 🌐 Deployment
+
+- **Render** - Free tier, easy Flask deployment
+
 ## 📌 Features
 
 - **User Authentication System**
@@ -203,10 +207,6 @@ The visual design and layout of this blog were inspired by the clean, minimal ae
 - [ ] Social media sharing buttons
 - [ ] Analytics dashboard
 
-## 🌐 Deployment
-
-- **Render** - Free tier, easy Flask deployment
-
 
 ## 🙋‍♂️ Author
 
@@ -219,9 +219,9 @@ The visual design and layout of this blog were inspired by the clean, minimal ae
 
 ## 🔗 Project Resources
 
-- **Project Inspiration**: [Roadmap.sh Personal Blog Project](https://roadmap.sh/projects/personal-blog)
 - **Theme Reference**: [PaperMod for HTMLy](https://www.htmly.com/theme/papermod)
-
+- **Design Software**: [Draw.io](https://app.diagrams.net/)
+- 
 ## 📄 License
 
 This project is open source and available for educational purposes.
