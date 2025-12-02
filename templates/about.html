@@ -116,10 +116,15 @@
 
     <!-- Header -->
     <header>
-        <a href="/" class="logo">simplisticwords.com</a>
+        <a href="/" class="logo">MyLinesofProgress.com</a>
         <nav>
             <a href="/">Home</a>
-            <a href="/post/new">Blog</a>
+            {% if current_user.is_authenticated %}
+                <a href="/post/new">Blog</a>
+                <a href="/logout">Logout</a>
+            {% else %}
+                <a href="/login">Login</a>
+            {% endif %}
             <a href="/about">About</a>
         </nav>
     </header>
